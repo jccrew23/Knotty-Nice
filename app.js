@@ -23,7 +23,7 @@ export const options = {
                 url: "http://localhost:3000"
             },
             {
-                url: "https://httprequests.onrender.com"
+                url: "https://knotty-nice.onrender.com/"
             }
         ],
     },
