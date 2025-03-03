@@ -1,0 +1,73 @@
+//LocalHost
+### Get all Products
+GET http://localhost:3000/products
+
+### Get Product by ID
+GET http://localhost:3000/products/67b3ddb68a78a53dce3fad64
+
+### Create Product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "productName": "Piano Player Ombre",
+    "productPrice": 9.99,
+    "productCategory": "yarn"
+}
+
+### Update Product
+PUT http://localhost:3000/products/67b3dfda8a78a53dce3fad65
+Content-Type: application/json
+
+{
+    "productName": "Sunflower Fun",
+    "productPrice": 11.99,
+    "productCategory": "yarn"
+}
+
+### Delete Product
+DELETE http://localhost:3000/products/67b3e00c8a78a53dce3fad67
+
+### Get all Transactions
+GET http://localhost:3000/transactions
+
+### Get Transaction by ID
+GET http://localhost:3000/transactions/67b3e00c8a78a53dce3fad67
+
+### Create Transaction
+POST http://localhost:3000/transactions
+Content-Type: application/json
+
+{
+    "paymentType": "cash",
+    "transactionAmount": 29.99,
+    "transactionDate": "2023-08-04",
+    "products": ["LionHeart Leather Brown", "Piano Player Ombre"]
+}
+
+### Update Transaction
+PUT http://localhost:3000/transactions/67b3e1678a78a53dce3fad69
+Content-Type: application/json
+
+{
+    "paymentType": "credit",
+    "transactionAmount": 22.99,
+    "transactionDate": "2024-05-26",
+    "products": ["Gravel Grey Baby Soft", "Plain Jane White"]
+}
+
+### Delete Transaction
+DELETE http://localhost:3000/transactions/67b3e00c8a78a53dce3fad67
+
+//Render
+### Get all Products
+### Get Product by ID
+### Create Product
+### Update Product
+### Delete Product
+
+### Get all Transactions
+### Get Transaction by ID
+### Create Transaction
+### Update Transaction
+### Delete Transaction
